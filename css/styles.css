@@ -21,6 +21,19 @@ h4 {
     box-shadow: 5px 10px 25px hsla(225, 25%, 37%, 0.20);
 }
 
+@media (max-width: 560px) {
+    .container {
+        padding: 0;
+        display: block;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 100%;
+        border-radius: revert;
+        border-radius: 0;
+
+    }
+
     .results{
       border-radius: 0;
     }
@@ -146,6 +159,8 @@ svg{
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
 }
 
+
+
 @media (max-width: 560px) {
     .container {
         padding: 0;
@@ -162,8 +177,6 @@ svg{
         border-top-right-radius: 0%;
     }
 }
-
-
 
 
 
